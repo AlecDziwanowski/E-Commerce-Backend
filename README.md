@@ -30,12 +30,6 @@ Note that the functionality for creating the many-to-many relationship for produ
 
 > **Hint**: Be sure to look at the mini-project code for syntax help and use your model's column definitions to figure out what `req.body` will be for POST and PUT routes!
 
-### Seed the Database
-After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
-
-### Sync Sequelize to the Database on Server Start
-Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
-
 ### Deliverables: 10%
 * The GitHub repository containing your application code.
 
@@ -57,8 +51,9 @@ Create the code needed in `server.js` to sync the Sequelize models to the MySQL 
   * Includes column definitions for all four models outlined in the homework instructions.
   * Includes model associations outlined in the homework instructions.
 
-
 ## Review
 You are required to submit BOTH of the following for review:
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
+
+- connection.js - 1 question

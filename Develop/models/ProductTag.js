@@ -1,9 +1,12 @@
+// import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-
+// import our database connection
 const sequelize = require('../config/connection');
 
+// create ProductTag class from Model class, which is from the sequelize library
 class ProductTag extends Model { }
 
+// set up fields and rules for ProductTag model
 ProductTag.init(
   {
     // define columns
@@ -31,10 +34,12 @@ ProductTag.init(
   {
     sequelize,
     timestamps: false,
+    // Prevent sequelize from renaming the table
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
   }
 );
 
+// export ProductTag to be used in routes and seeds folders
 module.exports = ProductTag;
