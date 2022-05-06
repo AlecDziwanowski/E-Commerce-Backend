@@ -56,4 +56,4 @@ You are required to submit BOTH of the following for review:
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
-- connection.js - 1 question
+- tag data is not in [3] like in example

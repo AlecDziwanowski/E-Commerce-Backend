@@ -10,7 +10,6 @@ const sequelize = process.env.JAWSDB_URL
       dialectOptions: {
         decimalNumbers: true,
       },
-      // add port?
     });
 
 module.exports = sequelize;
