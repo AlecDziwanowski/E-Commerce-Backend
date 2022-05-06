@@ -84,7 +84,9 @@
 ## About The Project
 Backend for an e-commerce web application, built in Express.js. The front end for this application has not yet been deployed. The backend creates a seeded database that can accept CRUD operations from the user.
 
-### Application Demonstration GIF (for a video use demo link above)
+### Application Demonstration GIF 
+(for a video use demo link above)
+
 ![Team Profile Generator GIF](./Assets/functionalityGIF.gif)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
