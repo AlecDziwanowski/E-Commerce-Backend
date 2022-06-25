@@ -33,7 +33,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-<h3 align="center">Note Taker</h3>
+<h3 align="center">E-Commerce Backend</h3>
 
   <p align="center">
     A web application with a backend built in Express.js that maintains notes written and saved by the user.
